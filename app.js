@@ -1,50 +1,3 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
-// Array para almacenar los nombres de amigos
-/*let amigosSecretos = [];
-
-function asignarTextoElemento(elemento, texto){
-let elementoHTML = document.querySelector(elemento);
-elementoHTML.innerHTML = texto;
-let listaAmigos = amigosSecretos.map(amigo => `<li>${amigo}</li>`).join("");
-}
-
-
-
-function agregarAmigo() {
-    // Obtener el valor del input
-    const nombreInput = document.getElementById('amigo').value;
-    
-    // Validar que el input no esté vacío
-    if (nombreInput.trim() === '') {
-        alert('Por favor, inserte un nombre');
-        return;
-    }
-    
-    // Agregar el nombre al array
-    amigosSecretos.push(nombreInput);
-    asignarTextoElemento('ul',listaAmigos);
-    listaAmigos = amigosSecretos.map(amigo => `<li>${amigo}</li>`).join("");
-    document.getElementById('amigo').value = '';
-    
-    console.log(amigosSecretos)
-}
-
-function actualizarListaAmigos() {
-    // Obtener el elemento de la lista donde se mostrarán los amigos
-    const lista = document.getElementById('amigo');
-
-    // Limpiar la lista existente antes de agregar los nuevos elementos
-    lista.innerHTML = "";
-
-    // Iterar sobre el array 'amigos' y agregar cada amigo como un <li>
-    for (let i = 0; i < amigos.length; i++) {
-        const li = document.createElement("li");
-        li.textContent = amigos[i];  // Establecer el texto del <li> con el nombre del amigo
-        lista.appendChild(li);  // Agregar el <li> al <ul> de la lista
-    }
-}
-*/
-// Array de amigos secretos
 let amigosSecretos = []; 
 
 // Función para asignar texto a un elemento HTML
@@ -102,4 +55,5 @@ function sortearAmigo() {
 
     // Mostrar el resultado en el HTML
     document.getElementById("resultado").innerHTML = `El amigo secreto sorteado es: <strong>${amigoSorteado}</strong>`;
+
 }
